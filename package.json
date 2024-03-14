@@ -1,0 +1,19 @@
+{
+  "name": "notion-api",
+  "version": "1.0.0",
+  "description": "Usando a API do Notion",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": {
+    "name": "Agustinho Neto",
+    "url": "https://github.com/agustinhopneto"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^2.2.14"
+  }
+}
