@@ -1,10 +1,11 @@
+import { create } from './services/create.js'
 import { list } from './services/list.js'
 
 const method = process.argv.at(2)
 
 switch(method) {
   case 'create': {
-    console.log('create')
+    create(process.argv.at(3))
     break
   }
   case 'list': {
